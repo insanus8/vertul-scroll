@@ -1,0 +1,35 @@
+body {
+  color: aliceblue;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.big {
+  max-width: 500px;
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  overflow: auto;
+}
+.number-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* gap: 0; */
+  gap: 50px;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.number-list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 100px;
+margin: 0;
+padding: 0;
+border: 1px solid firebrick;
+box-sizing: border-box;
+}
